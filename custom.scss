@@ -1,0 +1,17 @@
+$base-color: darkgray;
+$text-color: white;
+%reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+* {
+    @extend %reset;
+}
+
+header {
+    background-color: darken($base-color, 25%);
+    color: darken($text-color, 25%);
+}
